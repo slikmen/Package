@@ -1,0 +1,29 @@
+{
+  "name": "vueapptesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "vue": "^2.3.3",
+    "vue-gtag": "^1.9.1",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.3.3"
+  }
+}
