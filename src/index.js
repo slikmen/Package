@@ -9,6 +9,12 @@ Vue.use(VueGtag, {
     disableScriptLoad: true // doesn't install Google Analytics script
 });
 
+window.package = {
+    openModal: function() {
+        alert('Modal is opened')
+    }
+}
+
 const app = new Vue({
     template: '<main-app />', 
 })

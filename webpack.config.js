@@ -4,7 +4,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'production',
   output: {
-    filename: 'PackageFlowScript.js'
+    filename: 'PackageFlowScript-v1.js'
   },
   resolve: { alias: { vue: 'vue/dist/vue.esm.js' } },
   module: {
